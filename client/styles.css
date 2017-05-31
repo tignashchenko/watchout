@@ -3,3 +3,37 @@
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
 
+body {
+  background-color: black;
+}
+
+.board {
+  background-color: black;
+  color: #FF9900;
+  background-image: url("resources/starField.jpg");
+  }
+
+.playField {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.asteroid {
+  height: 5%;
+  width: 5%;
+}
+
+.highscore {
+  background-color: #000000;
+  color: #66FF33;
+}
+
+.current {
+  background-color: #000000;
+  color: #99AAFF;
+}
+
+.collisions {
+  background-color: #000000;
+  color: #FF6633;
+}
